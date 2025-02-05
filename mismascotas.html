@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>PetConnet</title>
+    <meta
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+      name="viewport"
+    />
+    <link
+      rel="icon"
+      href="assets/img/kaiadmin/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Fonts and icons -->
+    <script src="assets/js/plugin/webfont/webfont.min.js"></script>
+    <script>
+      WebFont.load({
+        google: { families: ["Public Sans:300,400,500,600,700"] },
+        custom: {
+          families: [
+            "Font Awesome 5 Solid",
+            "Font Awesome 5 Regular",
+            "Font Awesome 5 Brands",
+            "simple-line-icons",
+          ],
+          urls: ["assets/css/fonts.min.css"],
+        },
+        active: function () {
+          sessionStorage.fonts = true;
+        },
+      });
+    </script>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins.min.css" />
+    <link rel="stylesheet" href="assets/css/kaiadmin.min.css" />
+	<link rel="stylesheet" href="propio.css" />
+
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link rel="stylesheet" href="assets/css/demo.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Sidebar -->
+      <div class="sidebar" data-background-color="dark">
+        <div class="sidebar-logo">
+          <!-- Logo Header -->
+          <div class="logo-header" data-background-color="dark">
+            <a href="index.html" class="logo">
+              <img
+                src="assets/img/kaiadmin/logo_light.png"
+                alt="navbar brand"
+                class="navbar-brand"
+                height="100"
+              />
+            </a>
+            <div class="nav-toggle">
+              <button class="btn btn-toggle toggle-sidebar">
+                <i class="gg-menu-right"></i>
+              </button>
+              <button class="btn btn-toggle sidenav-toggler">
+                <i class="gg-menu-left"></i>
+              </button>
+            </div>
+            <button class="topbar-toggler more">
+              <i class="gg-more-vertical-alt"></i>
+            </button>
+          </div>
+          <!-- End Logo Header -->
+        </div>
+        <div class="sidebar-wrapper scrollbar scrollbar-inner">
+          <div class="sidebar-content">
+            <ul class="nav nav-secondary">
+				<li class="nav-item">
+					<a href="index.html">
+					  <i class="fa-solid fas fa-newspaper"></i>
+					  <p>Newsletter</p>
+					</a>
+				</li>
+				<hr>
+				<li class="nav-item">
+					<a href="mismascotas.html">
+					<i class="fa-solid fas fa-paw"></i>
+					  <p>Mis mascotas</p>
+					</a>
+				</li>
+				<hr>
+				<li class="nav-item">
+					<a href="../../documentation/index.html">
+					  <i class="fas fa-user-md"></i>
+					  <p>Veterinario</p>
+					</a>
+				</li>
+				<hr>
+				<li class="nav-item">
+					<a href="../../documentation/index.html">
+						<i class="fas fa-user-circle"></i>
+						<p>Mi perfil</p>
+					</a>
+				</li>
+				<hr>
+				<li class="nav-item">
+					<a href="../../documentation/index.html">
+						<i class="fas fa-question-circle"></i>
+						<p>Información</p>
+					</a>
+				</li>
+				<hr>
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End Sidebar -->
+
+      <div class="main-panel">
+        <div class="main-header">
+          <div class="main-header-logo">
+            <!-- Logo Header -->
+            <div class="logo-header" data-background-color="dark">
+              <a href="index.html" class="logo">
+                <img
+                  src="assets/img/kaiadmin/logo_light.png"
+                  alt="navbar brand"
+                  class="navbar-brand"
+                  height="20"
+                />
+              </a>
+              <div class="nav-toggle">
+                <button class="btn btn-toggle toggle-sidebar">
+                  <i class="gg-menu-right"></i>
+                </button>
+                <button class="btn btn-toggle sidenav-toggler">
+                  <i class="gg-menu-left"></i>
+                </button>
+              </div>
+              <button class="topbar-toggler more">
+                <i class="gg-more-vertical-alt"></i>
+              </button>
+            </div>
+            <!-- End Logo Header -->
+          </div>
+          <!-- Navbar Header -->
+          <nav
+            class="navbar navbar-header navbar-header-transparent navbar-expand-lg border-bottom"
+          >
+          </nav>
+          <!-- End Navbar -->
+        </div>
+
+        <div class="container">
+          	<div class="page-inner">
+            	<div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4">
+              		<div>
+                		<h3 class="fw-bold mb-3">Mis mascotas:</h3>
+                		<h6 class="op-7 mb-2"></h6>
+					</div>
+				</div>
+				<div class="row m-3">
+				<!--Carta mascota-->
+					<div id="africa" class="card card-profile" style="display: none;">
+						<div
+							class="card-header"
+							style="background-image: url('assets/img/blogpost.jpg')"
+						>
+							<div class="profile-picture">
+							<div class="avatar avatar-xl">
+								<img
+								src="assets/img/perfilperro.jpg"
+								alt="..."
+								class="avatar-img rounded-circle"
+								/>
+							</div>
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="user-profile text-center">
+							<div class="name">África, 5</div>
+							<div class="job"></div>
+							<div class="desc"></div>
+							
+							<div class="view-profile">
+								<a href="#" class="btn btn-secondary w-100"
+								>Ver perfil completo</a
+								>
+							</div>
+							</div>
+						</div>
+						<div class="card-footer">
+							<div class="row user-stats text-center">
+							<div class="col p-1">
+								<div class="number"><button class="opcion">Agendar<br>cita</button></div>
+								<div class="title"></div>
+							</div>
+							<div class="col p-1">
+								<div class="number"><button class="opcion">Historial</button></div>
+								<div class="title"></div>
+							</div>
+							<div class="col p-1">
+								<div class="number"><button class="opcion">Modificar<br>datos</button></div>
+								<div class="title"></div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Carta vacia -->
+				<div class="row m-3">
+					<div class="card card-profile">
+						<div class="row">
+							<p class="h2">Añadir mascota:</p>
+						</div>
+						<div id="boton" class="row" >
+							<button><i class="fas fa-plus fa-x2"></i></button>
+						</div>
+						
+
+					</div>
+				</div>
+			</div>
+        </div>
+
+        <footer class="footer">
+          <div class="container-fluid d-flex justify-content-between">
+            <nav class="pull-left">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="http://www.themekita.com">
+                    ThemeKita
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Help </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Licenses </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="copyright">
+              2024, made with <i class="fa fa-heart heart text-danger"></i> by
+              <a href="http://www.themekita.com">ThemeKita</a>
+            </div>
+            <div>
+              Distributed by
+              <a target="_blank" href="https://themewagon.com/">ThemeWagon</a>.
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      
+    </div>
+    <!--   Core JS Files   -->
+    <script src="assets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
+    <script src="assets/js/core/bootstrap.min.js"></script>
+
+    <!-- jQuery Scrollbar -->
+    <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+    <!-- Chart JS -->
+    <script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+    <!-- jQuery Sparkline -->
+    <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Chart Circle -->
+    <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+    <!-- Datatables -->
+    <script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+    <!-- Bootstrap Notify -->
+    <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+    <!-- jQuery Vector Maps -->
+    <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="assets/js/plugin/jsvectormap/world.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+    <!-- Kaiadmin JS -->
+    <script src="assets/js/kaiadmin.min.js"></script>
+
+	<!-- Modal -->
+	<div id="modal" class="modal">
+		<div class="modal-contenido"  style="margin-top: 80px;">
+			<span class="cerrar">&times;</span>
+			<h2>Añadir Mascota</h2>
+			<form id="formulario-mascota">
+				<label for="nombre-mascota">Nombre de la Mascota:</label>
+				<input type="text" id="nombre-mascota" name="nombre-mascota" required>
+
+				<label for="edad">Edad:*</label>
+				<input type="number" id="edad" name="edad" required>
+
+				<label for="numero-chip">Número de Chip:*</label>
+				<input type="text" id="numero-chip" name="numero-chip" required>
+
+				<label for="imagen-mascota">Imagen de la Mascota:</label>
+				<input type="file" id="imagen-mascota" name="imagen-mascota" accept="image/*">
+
+				<label for="imagen-mascota">Imagen Cartilla de Vacunación:*</label>
+				<input type="file" id="imagen-cartilla" name="imagen-cartilla" accept="image/*" required>
+				<p>(*) Los campos son obligatorios</p>
+
+				<button type="submit" class="btn btn-secondary w-100" onclick="mostrarafrica()">Guardar</button>
+			</form>
+		</div>
+	</div>
+	<script>
+		// Obtener elementos del DOM
+		const boton = document.getElementById("boton");
+		const modal = document.getElementById("modal");
+		const cerrar = document.querySelector(".cerrar");
+	
+		// Abrir el modal al hacer clic en el botón
+		boton.addEventListener("click", () => {
+			modal.style.display = "block";
+		});
+	
+		// Cerrar el modal al hacer clic en la "x"
+		cerrar.addEventListener("click", () => {
+			modal.style.display = "none";
+		});
+	
+		// Cerrar el modal si se hace clic fuera del contenido
+		window.addEventListener("click", (event) => {
+			if (event.target === modal) {
+				modal.style.display = "none";
+			}
+		});
+	
+		// Manejar el envío del formulario
+		document.getElementById("formulario-mascota").addEventListener("submit", (event) => {
+			event.preventDefault(); // Evitar el envío del formulario
+			alert("Mascota añadida correctamente"); // Mensaje de confirmación
+			modal.style.display = "none"; // Cerrar el modal
+		});
+		function mostrarafrica(){
+			document.getElementById("africa").style.display = "block";
+		}
+	</script>
+
+  </body>
+</html>
+
+

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>PetConnet</title>
+    <meta
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+      name="viewport"
+    />
+    <link
+      rel="icon"
+      href="assets/img/kaiadmin/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Fonts and icons -->
+    <script src="assets/js/plugin/webfont/webfont.min.js"></script>
+    <script>
+      WebFont.load({
+        google: { families: ["Public Sans:300,400,500,600,700"] },
+        custom: {
+          families: [
+            "Font Awesome 5 Solid",
+            "Font Awesome 5 Regular",
+            "Font Awesome 5 Brands",
+            "simple-line-icons",
+          ],
+          urls: ["assets/css/fonts.min.css"],
+        },
+        active: function () {
+          sessionStorage.fonts = true;
+        },
+      });
+    </script>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins.min.css" />
+    <link rel="stylesheet" href="assets/css/kaiadmin.min.css" />
+
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link rel="stylesheet" href="assets/css/demo.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Sidebar -->
+      <div class="sidebar" data-background-color="dark">
+        <div class="sidebar-logo">
+          <!-- Logo Header -->
+          <div class="logo-header" data-background-color="dark">
+            <a href="index.html" class="logo">
+              <img
+                src="assets/img/kaiadmin/logo_light.png"
+                alt="navbar brand"
+                class="navbar-brand"
+                height="100"
+              />
+            </a>
+            <div class="nav-toggle">
+              <button class="btn btn-toggle toggle-sidebar">
+                <i class="gg-menu-right"></i>
+              </button>
+              <button class="btn btn-toggle sidenav-toggler">
+                <i class="gg-menu-left"></i>
+              </button>
+            </div>
+            <button class="topbar-toggler more">
+              <i class="gg-more-vertical-alt"></i>
+            </button>
+          </div>
+          <!-- End Logo Header -->
+        </div>
+        <div class="sidebar-wrapper scrollbar scrollbar-inner">
+          <div class="sidebar-content">
+            <ul class="nav nav-secondary">
+				<li class="nav-item">
+					<a href="index.html">
+					  <i class="fa-solid fas fa-newspaper"></i>
+					  <p>Newsletter</p>
+					</a>
+				</li>
+				<hr>
+				<li class="nav-item">
+					<a href="mismascotas.html">
+					<i class="fa-solid fas fa-paw"></i>
+					  <p>Mis mascotas</p>
+					</a>
+				</li>
+				<hr>
+				<li class="nav-item">
+					<a href="../../documentation/index.html">
+					  <i class="fas fa-user-md"></i>
+					  <p>Veterinario</p>
+					</a>
+				</li>
+				<hr>
+				<li class="nav-item">
+					<a href="../../documentation/index.html">
+						<i class="fas fa-user-circle"></i>
+						<p>Mi perfil</p>
+					</a>
+				</li>
+				<hr>
+				<li class="nav-item">
+					<a href="../../documentation/index.html">
+						<i class="fas fa-question-circle"></i>
+						<p>Información</p>
+					</a>
+				</li>
+				<hr>
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End Sidebar -->
+
+      <div class="main-panel">
+        <div class="main-header">
+          <div class="main-header-logo">
+            <!-- Logo Header -->
+            <div class="logo-header" data-background-color="dark">
+              <a href="index.html" class="logo">
+                <img
+                  src="assets/img/kaiadmin/logo_light.png"
+                  alt="navbar brand"
+                  class="navbar-brand"
+                  height="20"
+                />
+              </a>
+              <div class="nav-toggle">
+                <button class="btn btn-toggle toggle-sidebar">
+                  <i class="gg-menu-right"></i>
+                </button>
+                <button class="btn btn-toggle sidenav-toggler">
+                  <i class="gg-menu-left"></i>
+                </button>
+              </div>
+              <button class="topbar-toggler more">
+                <i class="gg-more-vertical-alt"></i>
+              </button>
+            </div>
+            <!-- End Logo Header -->
+          </div>
+          <!-- Navbar Header -->
+          <nav
+            class="navbar navbar-header navbar-header-transparent navbar-expand-lg border-bottom"
+          >
+          </nav>
+          <!-- End Navbar -->
+        </div>
+
+        <div class="container">
+          	<div class="page-inner">
+            	<div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4">
+              		<div>
+                		<h3 class="fw-bold mb-3">Newsletter</h3>
+                		<h6 class="op-7 mb-2">Las noticicias más relevantes sobre nuestros amigos peludos.</h6>
+					</div>
+				</div>
+				<div class="row m-3">
+				<!--Noticias-->
+					<div class="card col-12 col-md-7 col-xl-5 m-3">
+						<div class="card-header">
+							<h4 class="card-title">Perro salva a su dueño de un incendio en plena madrugada</h4>
+						</div>
+						<div class="card-body">
+							<div class="tab-content mt-2 mb-3" id="pills-tabContent">
+								<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+									<p>Un labrador llamado Max alertó a su dueño ladrando insistentemente cuando detectó humo en la casa. 
+										Gracias a su instinto, ambos lograron salir a tiempo antes de que las llamas consumieran la vivienda. 
+										Max fue reconocido como un héroe local. <a href="#">Saber mas...</a></p>
+								</div>
+								<img class="h-100 w-100" src="Designer.png"/>
+							</div>
+						</div>
+					</div>
+
+					<!--Notcia 2-->
+					<div class="card col-12 col-md-7 col-xl-5 m-3">
+						<div class="card-header">
+							<h4 class="card-title">Gata viaja 200 km escondida en un camión y regresa sana y salva</h4>
+						</div>
+						<div class="card-body">
+							<div class="tab-content mt-2 mb-3" id="pills-tabContent">
+								<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+									<p>Mimi, una gata curiosa, se subió a un camión de reparto sin que su dueño lo notara. Tras una semana desaparecida, 
+										fue encontrada en otra ciudad y devuelta a casa gracias a su microchip. ¡Una aventura felina increíble! <a href="#">Saber mas...</a></p>
+								</div>
+								<img class="h-100 w-100" src="gato.jpeg"/>
+							</div>
+						</div>
+					</div>
+				<!--noticia3-->
+					<div class="card col-12 col-md-7 col-xl-5 m-3">
+						<div class="card-header">
+							<h4 class="card-title">App PetConnect revoluciona la adopción de mascotas en solo un mes</h4>
+						</div>
+						<div class="card-body">
+							
+							<div class="tab-content mt-2 mb-3" id="pills-tabContent">
+								<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+									<p>La nueva aplicación PetConnect ha facilitado más de 1,000 adopciones en su primer mes de lanzamiento.
+										Con su sistema de match entre mascotas y dueños, está cambiando la forma en que las personas encuentran 
+										a su compañero perfecto. <a href="#">Saber mas...</a></p>
+								</div>
+								<img class="h-100 w-100" src="app.jpeg"/>
+							</div>
+						</div>
+					</div>
+					<!--noticia4-->
+					<div class="card col-12 col-md-7 col-xl-5 m-3">
+						<div class="card-header">
+							<h4 class="card-title">Perro aprende a tocar el piano y se vuelve viral en redes sociales</h4>
+						</div>
+						<div class="card-body">
+							
+							<div class="tab-content mt-2 mb-3" id="pills-tabContent">
+								<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+									<p>Rocky, un golden retriever de 3 años, sorprendió a su dueña al aprender a tocar melodías simples en el piano. 
+										Sus videos acumulan millones de vistas en TikTok, convirtiéndolo en una estrella canina de la música. <a href="#">Saber mas...</a></p>
+								</div>
+								<img class="h-100 w-100" src="perro.jpeg"/>
+							</div>
+						</div>
+					</div>
+				<!--not 5-->
+					<div class="card col-12 col-md-7 col-xl-5 m-3">
+						<div class="card-header">
+							<h4 class="card-title">Refugio de animales logra récord de adopciones en un solo día</h4>
+						</div>
+						<div class="card-body">
+							
+							<div class="tab-content mt-2 mb-3" id="pills-tabContent">
+								<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+									<p>Un refugio local organizó un evento especial llamado "Un hogar para todos" y logró que 50 mascotas 
+										encontraran familia en menos de 24 horas. La comunidad se unió para apoyar la causa, demostrando 
+										que el amor por los animales no tiene límites. <a href="#">Saber mas...</a></p>
+								</div>
+								<img class="h-100 w-100" src="refigio.jpeg"/>
+								
+							</div>
+						</div>
+					</div>
+					<!--not 6-->
+					<div class="card col-12 col-md-7 col-xl-5 m-3">
+						<div class="card-header">
+							<h4 class="card-title">Científicos descubren que los gatos reconocen su nombre, pero deciden ignorarlo</h4>
+						</div>
+						<div class="card-body">
+							
+							<div class="tab-content mt-2 mb-3" id="pills-tabContent">
+								<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+									<p>Un estudio reciente confirmó que los gatos pueden distinguir su nombre entre otras palabras, aunque 
+										a menudo eligen no responder. Los investigadores sugieren que esto refleja su personalidad 
+										independiente y misteriosa. <a href="#">Saber mas...</a></p>
+								</div>
+								<img class="h-100 w-100" src="cientifi.jpeg"/>
+							</div>
+						</div>
+					</div>
+				<!--not 7-->
+					<div class="card col-12 col-md-7 col-xl-5 m-3">
+						<div class="card-header">
+							<h4 class="card-title">Mascotas ayudan a reducir el estrés en estudiantes universitarios, según estudio</h4>
+						</div>
+						<div class="card-body">
+							
+							<div class="tab-content mt-2 mb-3" id="pills-tabContent">
+								<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+									<p>Una investigación reveló que los estudiantes que interactúan con mascotas durante exámenes finales reportan niveles
+										más bajos de ansiedad. Universidades están considerando implementar programas de terapia con animales para mejorar 
+										el bienestar estudiantil. <a href="#">Saber mas...</a></p>
+								</div>
+								<img class="h-100 w-100" src="estres.jpeg"/>
+							</div>
+						</div>
+					</div>
+					<!--mas not..-->
+				</div>
+			</div>
+        </div>
+
+        <footer class="footer">
+          <div class="container-fluid d-flex justify-content-between">
+            <nav class="pull-left">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="http://www.themekita.com">
+                    ThemeKita
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Help </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Licenses </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="copyright">
+              2024, made with <i class="fa fa-heart heart text-danger"></i> by
+              <a href="http://www.themekita.com">ThemeKita</a>
+            </div>
+            <div>
+              Distributed by
+              <a target="_blank" href="https://themewagon.com/">ThemeWagon</a>.
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      
+    </div>
+    <!--   Core JS Files   -->
+    <script src="assets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
+    <script src="assets/js/core/bootstrap.min.js"></script>
+
+    <!-- jQuery Scrollbar -->
+    <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+    <!-- Chart JS -->
+    <script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+    <!-- jQuery Sparkline -->
+    <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Chart Circle -->
+    <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+    <!-- Datatables -->
+    <script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+    <!-- Bootstrap Notify -->
+    <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+    <!-- jQuery Vector Maps -->
+    <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="assets/js/plugin/jsvectormap/world.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+    <!-- Kaiadmin JS -->
+    <script src="assets/js/kaiadmin.min.js"></script>
+
+  </body>
+</html>
